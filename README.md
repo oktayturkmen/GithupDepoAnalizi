@@ -1,4 +1,4 @@
-# GitHub Depo Analizcisi
+# GitHub Depo Analizi
 
 Bu projede, GitHub depolarını klonlayıp Java dosyalarını analiz eden bir yazılım geliştirdim. Yazılım, Java dosyalarını çeşitli kriterler doğrultusunda inceleyerek geliştiricilere kod kalitesi ve dokümantasyonla ilgili faydalı bilgiler sunar.
 
