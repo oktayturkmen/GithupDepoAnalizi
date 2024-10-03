@@ -1,16 +1,32 @@
-GitHub Depo Analizcisi
-Bu projede, GitHub depolarını klonlayıp Java dosyalarını analiz eden bir yazılım geliştirdim. Kullanıcıdan alınan GitHub deposu URL'si üzerinden depoyu klonlayarak, Java dosyaları üzerinde detaylı bir analiz yürüttüm. Analiz esnasında, Javadoc yorum satır sayısı, yorum satır sayısı, kod satır sayısı, toplam satır sayısı, fonksiyon sayısı ve yorum sapma yüzdesi gibi metrikler hesapladım. Geliştirme sürecinde Java dili ve Eclipse IDE kullanıldı.
+# GitHub Depo Analizcisi
 
-Geliştirilen Yazılım
-Geliştirme Ortamı: Eclipse IDE
-Programlama Dili: Java
-Kullanıcı Arayüzü: Konsol uygulaması
-Anahtar Kütüphaneler:
-java.nio.file paketi: Dinamik klasörler oluşturmak için.
-java.util.regex paketi: Java dosyalarındaki yorum ve kod sayılarını analiz etmek için.
-Fonksiyonlar: Kodun yüksek okunabilirliği ve bakım kolaylığını sağlayacak şekilde detaylı yorum satırları ile desteklendi.
-Çıktılar
-Yazılım çeşitli GitHub depolarında test edildi ve her depoda beklenen doğrulukta çıktılar elde edildi. Çıktılar, depo analiz sürecinde elde edilen metrikleri içermektedir.
+Bu projede, GitHub depolarını klonlayıp Java dosyalarını analiz eden bir yazılım geliştirdim. Yazılım, Java dosyalarını çeşitli kriterler doğrultusunda inceleyerek geliştiricilere kod kalitesi ve dokümantasyonla ilgili faydalı bilgiler sunar.
 
-Sonuç
-Geliştirilen yazılım, GitHub depolarındaki Java dosyalarını etkin bir şekilde analiz edebilmekte ve yazılım geliştirme sürecinde önemli metrikler sağlamaktadır. Bu metrikler, kod kalitesinin artırılması ve daha iyi bir dokümantasyon sağlanmasında geliştiricilere yol gösterici olabilir. Ayrıca, yorum sapma yüzdesi gibi özgün metrikler sayesinde, geliştiricilerin yorumlama alışkanlıkları hakkında fikir edinilmesine yardımcı olur. Bu proje, yazılım mühendisliği eğitimi ve uygulamaları açısından değerli bir katkı sağlamaktadır.
+## Özellikler
+- **Javadoc Yorum Satır Sayısı**: Projedeki Javadoc formatındaki yorum satırlarının sayısını hesaplar.
+- **Yorum Satır Sayısı**: Java dosyalarındaki yorum satırlarını tespit eder.
+- **Kod Satır Sayısı**: Yalnızca kod içeren satırları belirler.
+- **Toplam Satır Sayısı**: Dosyadaki tüm satırları sayar.
+- **Fonksiyon Sayısı**: Java dosyalarında bulunan fonksiyonların sayısını çıkarır.
+- **Yorum Sapma Yüzdesi**: Toplam yorum ve kod satırlarına göre yorumlamaların ne kadar yaygın olduğunu gösterir.
+
+## Kullanım
+1. Konsol üzerinde yazılımı başlatın.
+2. GitHub depo URL'sini girin.
+3. Yazılım, depoyu klonlayacak ve Java dosyalarını analiz edecektir.
+4. Analiz sonuçları metrikler halinde konsolda gösterilecektir.
+
+
+## Çıktılar
+Yazılım, çeşitli GitHub depoları üzerinde test edildi ve doğru sonuçlar elde edildi. Aşağıda bazı örnek metrikler yer almaktadır:
+
+- Javadoc Yorum Satır Sayısı
+- Yorum Satır Sayısı
+- Kod Satır Sayısı
+- Toplam Satır Sayısı
+- Fonksiyon Sayısı
+- Yorum Sapma Yüzdesi
+
+## Sonuç
+Bu yazılım, GitHub depolarındaki Java dosyalarını analiz ederek kod kalitesini artırma ve dokümantasyon sağlama süreçlerine katkıda bulunur. Özellikle, yorum sapma yüzdesi gibi özgün metrikler sayesinde geliştiricilerin yorumlama alışkanlıkları hakkında fikir edinilebilir.
+
